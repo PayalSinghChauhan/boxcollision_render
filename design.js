@@ -35,7 +35,7 @@ function Move(press)
 
     if(press.keyCode==39 || press.keyCode==68)  // Move Right
     {
-        if(MoveLR<1250)
+        if(MoveLR<1100)
         {
             MoveLR +=5;
             BoxCollision.style.left = MoveLR + 'px';
@@ -44,7 +44,7 @@ function Move(press)
 
     if(press.keyCode==40 || press.keyCode==83)  // Move Down 
     {
-        if(MoveUD>-510)
+        if(MoveUD>-500)
         {
             MoveUD -=5;
             BoxCollision.style.bottom =    MoveUD + 'px';
